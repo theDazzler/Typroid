@@ -24,13 +24,10 @@ public class SmallH1 extends Heading
         super(context);
     }
 
+    /*
     @Override
     public int getFontSize() {
         return R.dimen.font_medium;
-    }
+    }*/
 
-    @Override
-    public int getFontColor() {
-        return android.R.attr.textColorSecondary;
-    }
 }

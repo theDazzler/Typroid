@@ -11,27 +11,35 @@ import com.android.thedazzler.typroid.R;
  */
 public class H1 extends Heading
 {
-
     public H1(Context context, AttributeSet attrs, int defStyle) {
         super(context, attrs, defStyle);
     }
 
     public H1(Context context, AttributeSet attrs) {
-        super(context, attrs);
+        this(context, attrs, R.attr.typroidH1Style);
     }
 
     public H1(Context context) {
-        super(context);
+        this(context, null);
     }
 
+    @Override
+    public int getStyle()
+    {
+        return R.style.TyproidH1;
+    }
+
+
+    /*
     @Override
     public int getFontSize()
     {
-        return R.dimen.font_large;
-    }
+        return R.dimen.font_h1;
+    }*/
 
+    /*
     @Override
     public int getFontColor() {
-        return android.R.attr.textColorPrimaryInverse;
-    }
+        return android.R.attr.textColorSecondaryInverse;
+    }*/
 }

@@ -9,4 +9,9 @@
     <dimen name="font_medium">18sp</dimen>
     <dimen name="font_large">22sp</dimen>
 
+    <dimen name="font_title">40sp</dimen>
+
+    <dimen name="font_h1">@dimen/font_large</dimen>
+    <dimen name="font_h2">@dimen/font_medium</dimen>
+
     </resources>

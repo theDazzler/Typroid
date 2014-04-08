@@ -10,19 +10,20 @@ import android.widget.TextView;
 import com.android.thedazzler.typroid.utils.FontUtils;
 import com.android.thedazzler.typroid.R;
 
-public class Heading extends BaseTyproidTextView
+//All textviews inherit styles from BaseTyproidTextView
+public abstract class BaseTyproidTextView extends AbstractBaseTyproidTextView
 {
-    public Heading(Context context, AttributeSet attrs, int defStyle)
+    public BaseTyproidTextView(Context context, AttributeSet attrs, int defStyle)
     {
         super(context, attrs, defStyle);
     }
 
-    public Heading(Context context, AttributeSet attrs)
+    public BaseTyproidTextView(Context context, AttributeSet attrs)
     {
-        this(context, attrs, R.attr.typroidHeadingStyle);
+        this(context, attrs, R.attr.typroidBaseTextViewStyle);
     }
 
-    public Heading(Context context)
+    public BaseTyproidTextView(Context context)
     {
         this(context, null);
     }
@@ -30,7 +31,9 @@ public class Heading extends BaseTyproidTextView
     @Override
     public int getStyle()
     {
-        return R.style.TyproidHeading;
+        return R.style.TyproidBaseTextView;
     }
+
+
 
 }

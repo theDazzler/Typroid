@@ -1,4 +1,4 @@
-<resources xmlns:bootstrap="http://schemas.android.com/apk/res-auto">
+<resources>
 
     <!--
         Base application theme, dependent on API level. This theme is replaced
@@ -15,6 +15,40 @@
     <style name="AppTheme" parent="AppBaseTheme">
         <!-- All customizations that are NOT specific to a particular API-level can go here. -->
     </style>
+
+    <!-- Typroid Base TextView -->
+    <style name="TyproidBaseTextView" parent="android:style/Widget.TextView">
+        <item name="android:textColor">?android:textColorPrimary</item>
+        <item name="typ_font">roboto-black</item>
+    </style>
+
+    <!-- Heading -->
+    <style name="TyproidHeading" parent="TyproidBaseTextView">
+        <item name="android:textSize">@dimen/font_large</item>
+    </style>
+
+    <!-- Title -->
+    <style name="TyproidTitle" parent="TyproidHeading">
+        <item name="android:textSize">@dimen/font_title</item>
+    </style>
+
+    <!-- H1 -->
+    <style name="TyproidH1" parent="TyproidHeading">
+        <item name="android:textSize">@dimen/font_large</item>
+    </style>
+
+    <!-- H2 -->
+    <style name="TyproidH2" parent="TyproidHeading">
+        <item name="android:textSize">@dimen/font_medium</item>
+    </style>
+
+    <!-- Subtitle -->
+    <style name="TyproidSubtitle" parent="TyproidHeading">
+        <item name="android:textSize">@dimen/font_micro</item>
+        <item name="typ_font">roboto-light</item>
+    </style>
+
+
 
 
 </resources>

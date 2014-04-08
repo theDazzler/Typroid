@@ -17,21 +17,17 @@ public class H2 extends Heading
     }
 
     public H2(Context context, AttributeSet attrs) {
-        super(context, attrs);
+        this(context, attrs, R.attr.typroidH2Style);
     }
 
     public H2(Context context) {
-        super(context);
+        this(context, null);
     }
 
     @Override
-    public int getFontSize()
+    public int getStyle()
     {
-        return R.dimen.font_medium;
+        return R.style.TyproidH2;
     }
 
-    @Override
-    public int getFontColor() {
-        return 0;
-    }
 }

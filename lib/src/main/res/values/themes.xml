@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="Theme.TyproidLight" parent="AppTheme">
+        <item name="typroidBaseTextViewStyle">@style/TyproidBaseTextView</item>
+        <item name="typroidHeadingStyle">@style/TyproidHeading</item>
+        <item name="typroidH1Style">@style/TyproidH1</item>
+        <item name="typroidH2Style">@style/TyproidH2</item>
+        <item name="typroidTitleStyle">@style/TyproidTitle</item>
+        <item name="typroidSubtitleStyle">@style/TyproidSubtitle</item>
+    </style>
+</resources>
