@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Typography -->
+    <declare-styleable name="TyproidHeading">
+        <attr name="typ_test" format="boolean" />
+    </declare-styleable>
+
+</resources>
+
