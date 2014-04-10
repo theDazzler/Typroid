@@ -1,5 +1,5 @@
 <h1>Typroid</h1>
-A typography library for Android. Typography made easy
+Bootstrap your typography with Typroid, a typography library for Android.
 
 #Features
 * Custom styling
@@ -9,7 +9,6 @@ A typography library for Android. Typography made easy
 * Title class for large titles
 * Subtitle class for subtexts
 * P class for paragraphs and longer text
-*
 
 [How to use](https://github.com/theDazzler/Typroid/wiki/How-to-Use)
 
