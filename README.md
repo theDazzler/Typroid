@@ -8,6 +8,9 @@
 * Title class for large titles
 * Subtitle class for subtexts
 * P class for paragraphs and longer text
+*
+
+[How to use](https://github.com/theDazzler/Typroid/wiki/How-to-Use)
 
 ![alt text](https://raw.github.com/theDazzler/Typroid/master/images/typroid_example1_framed.png "edit text backgrounds rounded")
 
