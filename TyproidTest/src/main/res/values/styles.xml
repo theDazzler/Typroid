@@ -8,11 +8,18 @@
     <!-- Application theme. -->
     <style name="AppTheme" parent="AppBaseTheme">
         <!-- All customizations that are NOT specific to a particular API-level can go here. -->
+        <item name="typroidBaseTextViewStyle">@style/TyproidBaseTextView</item>
         <item name="typroidHeadingStyle">@style/TyproidHeading</item>
         <item name="typroidH1Style">@style/TyproidH1</item>
         <item name="typroidH2Style">@style/TyproidH2</item>
+        <item name="typroidH3Style">@style/TyproidH3</item>
         <item name="typroidTitleStyle">@style/TyproidTitle</item>
         <item name="typroidSubtitleStyle">@style/TyproidSubtitle</item>
+        <item name="typroidPStyle">@style/TyproidP</item>
+    </style>
+
+    <style name="mine" parent="TyproidBaseTextView">
+        <item name="android:textColor">#4f3ff4</item>
     </style>
 
 </resources>

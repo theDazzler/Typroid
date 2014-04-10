@@ -7,8 +7,10 @@
         <attr name="typroidBaseTextViewStyle" format="reference" />
         <attr name="typroidH1Style" format="reference" />
         <attr name="typroidH2Style" format="reference" />
+        <attr name="typroidH3Style" format="reference" />
         <attr name="typroidTitleStyle" format="reference" />
         <attr name="typroidSubtitleStyle" format="reference" />
+        <attr name="typroidPStyle" format="reference" />
     </declare-styleable>
     <!-- -->
 

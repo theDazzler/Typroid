@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:typroid="http://schemas.android.com/apk/res-auto"
+    android:layout_width="wrap_content" android:layout_height="wrap_content"
+    android:orientation="vertical">
+
+
+
+    <RelativeLayout
+    android:layout_width="wrap_content" android:layout_height="wrap_content">
+
+
+
+        <com.android.thedazzler.typroid.typography.H3
+            android:layout_height="wrap_content"
+            android:layout_width="wrap_content"
+            android:text="Bob Johnson"
+            android:id="@+id/name" />
+
+        <com.android.thedazzler.typroid.typography.Subtitle
+            android:layout_height="wrap_content"
+            android:layout_width="wrap_content"
+            android:layout_alignBaseline="@+id/name"
+            android:text=" 3 min ago"
+            android:layout_toRightOf="@id/name"
+            android:id="@+id/time" />
+
+        <com.android.thedazzler.typroid.typography.P
+            android:layout_height="wrap_content"
+            android:layout_width="wrap_content"
+            android:layout_below="@+id/name"
+            android:text="I just went hiking on some mountains in Colorado. So amazing! Going snowboarding tomorrow."
+            android:id="@+id/text" />
+
+    </RelativeLayout>
+</LinearLayout>

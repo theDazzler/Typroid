@@ -5,7 +5,9 @@
         <item name="typroidHeadingStyle">@style/TyproidHeading</item>
         <item name="typroidH1Style">@style/TyproidH1</item>
         <item name="typroidH2Style">@style/TyproidH2</item>
+        <item name="typroidH3Style">@style/TyproidH3</item>
         <item name="typroidTitleStyle">@style/TyproidTitle</item>
         <item name="typroidSubtitleStyle">@style/TyproidSubtitle</item>
+        <item name="typroidPStyle">@style/TyproidP</item>
     </style>
 </resources>

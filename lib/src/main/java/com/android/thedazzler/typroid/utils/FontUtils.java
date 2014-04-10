@@ -29,7 +29,7 @@ public final class FontUtils
         fontTypes.put("roboto-medium-italic", FontType.ROBOTO_MEDIUM_ITALIC);
         fontTypes.put("roboto-regular", FontType.ROBOTO_REGULAR);
         fontTypes.put("roboto-thin", FontType.ROBOTO_THIN);
-        fontTypes.put("roboto-italic", FontType.ROBOTO_THIN_ITALIC);
+        fontTypes.put("roboto-thin-italic", FontType.ROBOTO_THIN_ITALIC);
 
         //Roboto Condensed
         fontTypes.put("robotoCondensed-bold", FontType.ROBOTO_CONDENSED_BOLD);

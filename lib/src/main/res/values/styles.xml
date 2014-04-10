@@ -19,17 +19,20 @@
     <!-- Typroid Base TextView -->
     <style name="TyproidBaseTextView" parent="android:style/Widget.TextView">
         <item name="android:textColor">?android:textColorPrimary</item>
-        <item name="typ_font">roboto-black</item>
+        <item name="typ_font">roboto-light</item>
     </style>
 
     <!-- Heading -->
     <style name="TyproidHeading" parent="TyproidBaseTextView">
         <item name="android:textSize">@dimen/font_large</item>
+        <item name="typ_font">roboto-medium</item>
+        <item name="android:includeFontPadding">false</item>
     </style>
 
     <!-- Title -->
     <style name="TyproidTitle" parent="TyproidHeading">
         <item name="android:textSize">@dimen/font_title</item>
+        <item name="android:textColor">?android:textColorPrimary</item>
     </style>
 
     <!-- H1 -->
@@ -42,10 +45,21 @@
         <item name="android:textSize">@dimen/font_medium</item>
     </style>
 
+    <!-- H3 -->
+    <style name="TyproidH3" parent="TyproidHeading">
+        <item name="android:textSize">@dimen/font_small</item>
+    </style>
+
     <!-- Subtitle -->
-    <style name="TyproidSubtitle" parent="TyproidHeading">
+    <style name="TyproidSubtitle" parent="TyproidBaseTextView">
         <item name="android:textSize">@dimen/font_micro</item>
-        <item name="typ_font">roboto-light</item>
+        <item name="android:textColor">@color/grey</item>
+    </style>
+
+    <!-- P -->
+    <style name="TyproidP" parent="TyproidBaseTextView">
+        <item name="android:textSize">@dimen/font_small</item>
+        <item name="android:lineSpacingExtra">@dimen/p_line_height</item>
     </style>
 
 

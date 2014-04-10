@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:typroid="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent" android:layout_height="match_parent"
+    android:layout_marginTop="20dp" >
+
+    <com.android.thedazzler.typroid.typography.Title
+        android:layout_height="wrap_content"
+        android:layout_width="wrap_content"
+        android:text="4:14"
+        typroid:typ_font="roboto-light"
+        android:id="@+id/time" />
+
+    <com.android.thedazzler.typroid.typography.H3
+        android:layout_height="wrap_content"
+        android:layout_width="wrap_content"
+        android:layout_alignBaseline="@+id/time"
+        android:text=" AM"
+        android:layout_toRightOf="@id/time"
+        typroid:typ_font="roboto-light"
+        android:id="@+id/pm" />
+
+    <com.android.thedazzler.typroid.typography.H3
+        android:layout_height="wrap_content"
+        android:layout_width="wrap_content"
+        android:text="Thu, April 10"
+        android:layout_below="@id/time"
+        typroid:typ_font="roboto-light"
+        android:id="@+id/location" />
+
+</RelativeLayout>

@@ -14,4 +14,6 @@
     <dimen name="font_h1">@dimen/font_large</dimen>
     <dimen name="font_h2">@dimen/font_medium</dimen>
 
+    <dimen name="p_line_height">3dp</dimen>
+
     </resources>

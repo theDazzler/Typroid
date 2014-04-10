@@ -1,13 +1,41 @@
-<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
-    android:id="@+id/container"
     android:layout_width="match_parent"
-    android:layout_height="match_parent"
-    tools:context="com.android.thedazzler.typroidtest.MainActivity"
-    tools:ignore="MergeRootFrame" >
+    android:layout_height="wrap_content"
+    >
+
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:id="@+id/container"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingLeft="@dimen/activity_horizontal_margin"
+        android:paddingRight="@dimen/activity_horizontal_margin"
+        android:paddingTop="@dimen/activity_vertical_margin"
+        android:paddingBottom="@dimen/activity_vertical_margin"
+        android:orientation="vertical"
+        tools:context="com.android.thedazzler.typroidtest.MainActivity" >
 
 
 
-    <include layout="@layout/fragment_main2"/>
+        <include layout="@layout/example_default" />
+        <include layout="@layout/example_light" />
+        <include layout="@layout/example_random" />
 
-</FrameLayout>
+
+        <com.android.thedazzler.typroid.typography.Title
+            android:layout_height="wrap_content"
+            android:layout_width="fill_parent"
+            android:text="Examples"
+            android:layout_marginBottom="10dp"
+            android:id="@+id/example1"/>
+
+        <include layout="@layout/example_social" />
+
+        <include layout="@layout/example_brand" />
+
+        <include layout="@layout/example_time" />
+
+    </LinearLayout>
+</ScrollView>
