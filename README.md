@@ -1,4 +1,5 @@
 <h1>Typroid</h1>
+A typography library for Android. Typography made easy
 
 #Features
 * Custom styling
