@@ -2,6 +2,7 @@
 Bootstrap your typography with Typroid, a typography library for Android.
 
 #Features
+* min SDK 7
 * Custom styling
 * Uses Roboto font by default
 * Everything can be overridden and styled to your liking
